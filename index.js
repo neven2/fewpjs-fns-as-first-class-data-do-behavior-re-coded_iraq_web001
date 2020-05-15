@@ -20,6 +20,7 @@ else if(hour>17){
   return "Good Evening";
 }
 }
+greet('15:00');
 /* Write your implementation of displayMessage() */
 function displayMessage(string){
  let newMessage= document.getElementById('greeting');
